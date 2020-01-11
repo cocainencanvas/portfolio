@@ -4,8 +4,9 @@
 }
 
 .main-header .header-title {
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
+  font-family: 'Cinzel', serif;
   color: #1D1D1D;
 }
 
@@ -34,17 +35,20 @@ font-family: 'Roboto', sans-serif;
 
 
 .main-banner .banner-title {
-   font-size: 110px;
-    line-height: 98%;
+  margin-top: 50px;
+  font-size: 110px;
+  font-family: 'Cinzel', serif;
+  line-height: 98%;
   color: #1D1D1D;
 }
 
 .main-banner .links {
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .main-banner .links .banner-link {
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
   color: #1D1D1D;
   font-size: 18px;
   position: relative;
@@ -57,7 +61,7 @@ font-family: 'Roboto', sans-serif;
   background-color: #90A7A7;
   position: absolute;
   left: -30px;
-  top: 12px;
+  top: 10px;
   border-radius: 5.5px;
 }
 
@@ -87,12 +91,17 @@ font-family: 'Roboto', sans-serif;
 .cocaine .cocaine-title {
   font-size: 20px;
   width: 60%;
+  font-family: 'Cinzel', serif;
+
 }
 
 .cocaine .cocaine-subtitle {
   margin-top: 24px;
-  font-size: 24px;
+  font-size: 30px;
+  line-height: 1.2;
   width: 60%;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .cocaine .cocaine-background {
@@ -103,10 +112,12 @@ font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #535353;
   width: 60%;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .canvas {
-  margin-top: 64px;
+  margin-top: 150px;
 }
 
 .canvas ul li {
@@ -114,8 +125,11 @@ font-family: 'Roboto', sans-serif;
 }
 
 .canvas .canvas-title {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 300px;
+  font-family: 'Cinzel', serif;
+
+
 }
 
 .canvas .canvas-title::after {
@@ -143,26 +157,39 @@ font-family: 'Roboto', sans-serif;
 }
 
 .canvas .canvas-image-title {
-  font-size: 30px;
+  font-size: 28px;
   width: 60%;
+  font-family: 'Cinzel', serif;
+  line-height: 115%;
+
+
 }
 
 .canvas .canvas-image-subtitle {
-  font-size: 30px;
+  margin-top: 6px;
+  font-size: 18px;
   color: #ADADAD;
+  font-weight: 200;
+  text-transform: uppercase;
   width: 60%;
+font-family: 'Montserrat', sans-serif;
+  line-height: 120%;
+
+
 }
 
 .main-footer {
-  margin-top: 100px;
+  margin-top: 120px;
   background-color: #1A1A1A;
   color: white;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 120px;
 }
 
 .main-footer .footer-title {
   font-size: 30px;
+  font-family: 'Cinzel', serif;
+  line-height: 98%;
   width: 60%;
 }
 
@@ -178,12 +205,16 @@ font-family: 'Roboto', sans-serif;
 
 .main-footer .footer-links a {
   text-decoration: none;
+font-family: 'Roboto', sans-serif;
   color: white;
 }
 
 .main-footer .footer-description {
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  font-weight: 300;
   width: 70%;
+
 }
 
 * {
