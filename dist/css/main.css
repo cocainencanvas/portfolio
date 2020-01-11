@@ -31,7 +31,10 @@ font-family: 'Cinzel', serif;
 font-family: 'Roboto', sans-serif;
 }
 
-
+.main-header .home-link {
+  text-decoration: none;
+  color: #1D1D1D;
+}
 
 .main-banner .banner-title {
    font-size: 110px;
