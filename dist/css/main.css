@@ -17,9 +17,25 @@
   height: 100%;
 }
 
+
+/*-------------------------------------*/
+/*primary and secondary font*/
+/*-------------------------------------*/
+
+
+.font-cocaine-primary{
+font-family: 'Cinzel', serif;
+}
+
+.font-cocaine-secondary{
+font-family: 'Roboto', sans-serif;
+}
+
+
+
 .main-banner .banner-title {
-  font-size: 170px;
-  line-height: 170px;
+   font-size: 110px;
+    line-height: 98%;
   color: #1D1D1D;
 }
 
@@ -30,7 +46,7 @@
 .main-banner .links .banner-link {
   text-decoration: none;
   color: #1D1D1D;
-  font-size: 24px;
+  font-size: 18px;
   position: relative;
 }
 
