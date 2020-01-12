@@ -179,6 +179,11 @@
   margin-top: 16px;
 }
 
+.main-footer .footer-credits a {
+  text-decoration: none;
+  color: white;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
