@@ -1,12 +1,14 @@
 .main-header {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 120px;
 }
 
 .main-header .header-title {
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
   color: #1D1D1D;
+    font-family: 'Cinzel', serif;
+
 }
 
 .main-header .header-image-container {
@@ -31,14 +33,14 @@
 }
 
 .main-banner .links {
-  margin-top: 50px;
-  margin-bottom: 300px;
+  margin-top: 80px;
+  margin-bottom: 110px;
 }
 
 .main-banner .links .banner-link {
   text-decoration: none;
   color: #1D1D1D;
-  font-size: 18px;
+  font-size: 16px;
   position: relative;
 }
 
@@ -56,19 +58,19 @@
 .scroll {
   position: relative;
   -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  font-size: 20px;
+  transform: rotate(90deg);
+  font-size: 16px;
   color: #1D1D1D;
 }
 
 .scroll::after {
   content: '';
-  width: 300px;
+  width: 180px;
   height: 1px;
   background-color: #1D1D1D;
   position: absolute;
-  top: 15px;
-  left: 100px;
+  top: 12px;
+  left: 70px;
 }
 
 .cocaine {
@@ -77,6 +79,8 @@
 
 .cocaine .cocaine-title {
   font-size: 20px;
+    font-family: 'Cinzel', serif;
+
 }
 
 .cocaine .cocaine-subtitle {
@@ -103,17 +107,19 @@
 }
 
 .canvas .canvas-title {
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 300px;
+    font-family: 'Cinzel', serif;
+
 }
 
 .canvas .canvas-title::after {
   content: '';
-  width: 300px;
+  width: 180px;
   height: 1px;
   background-color: #707070;
-  -webkit-transform: rotate(-90deg) translate(-200px, -190px);
-          transform: rotate(-90deg) translate(-200px, -190px);
+  -webkit-transform: rotate(-90deg) translate(-200px, -120px);
+          transform: rotate(-90deg) translate(-200px, -120px);
   position: absolute;
   top: 0px;
 }
@@ -135,11 +141,14 @@
   text-decoration: none;
   font-size: 30px;
   color: #1D1D1D;
+    font-family: 'Cinzel', serif;
+
 }
 
 .canvas .canvas-image-subtitle {
-  font-size: 30px;
+  font-size: 20px;
   color: #ADADAD;
+  font-weight: 200;
 }
 
 .main-footer {
