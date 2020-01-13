@@ -165,7 +165,16 @@
       $(function() {
         $('#footer').load('main-footer.html');
       });
-    </script>
+      $(window).scroll(function() {
+
+        if($('body').height() - 1.5 * $(window).height() < $(window).scrollTop()) {
+          $('#main-footer').addClass('main-footer-animation')
+        } else {
+           $('#main-footer').removeClass('main-footer-animation')
+        }
+      }
+      )
+   </script>
   </body>
 </html>
 

@@ -87,7 +87,7 @@
         </div>
       </div>
     </div>
-    <section class="canvas-footer">
+    <section id="canvas-footer" class="canvas-footer">
       <div class="container">
         <div class="row">
           <div class="col-4 offset-2 d-flex flex-column justify-content-center">
@@ -116,6 +116,21 @@
       $(function() {
         $('#footer').load('main-footer.html');
       });
+      $(window).scroll(function() {
+
+        if($('body').height() - 1.5 * $(window).height() < $(window).scrollTop()) {
+          $('#main-footer').addClass('main-footer-animation')
+        } else {
+           $('#main-footer').removeClass('main-footer-animation')
+        }
+
+        if($('body').height() - 2.5 * $(window).height() < $(window).scrollTop() && $('body').height() - 1.5 * $(window).height() > $(window).scrollTop()) {
+          $('#canvas-footer').addClass('canvas-footer-animation')
+        } else {
+           $('#canvas-footer').removeClass('canvas-footer-animation')
+        }
+      }
+      )
     </script>
   </body>
 </html>
