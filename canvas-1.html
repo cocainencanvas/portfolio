@@ -119,15 +119,15 @@
       $(window).scroll(function() {
 
         if($('body').height() - 1.5 * $(window).height() < $(window).scrollTop()) {
-          $('#main-footer').addClass('main-footer-animation')
+          $('body').addClass('main-footer-animation')
         } else {
-           $('#main-footer').removeClass('main-footer-animation')
+           $('body').removeClass('main-footer-animation')
         }
 
         if($('body').height() - 2.5 * $(window).height() < $(window).scrollTop() && $('body').height() - 1.5 * $(window).height() > $(window).scrollTop()) {
-          $('#canvas-footer').addClass('canvas-footer-animation')
+          $('body').addClass('canvas-footer-animation')
         } else {
-           $('#canvas-footer').removeClass('canvas-footer-animation')
+           $('body').removeClass('canvas-footer-animation')
         }
       }
       )
