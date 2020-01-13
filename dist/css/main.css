@@ -23,9 +23,11 @@
 }
 
 .main-banner .banner-title {
-  font-size: 120px;
+  font-size: 110px;
   line-height: 98%;
   color: #1D1D1D;
+  font-family: 'Cinzel', serif;
+
 }
 
 .main-banner .links {
