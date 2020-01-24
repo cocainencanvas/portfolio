@@ -128,11 +128,8 @@
 
     .canvas-image {
       width: 100%;
-
-      &:not(first-child) {
-        position: relative;
-        margin-top: -70px;
-      }
+      position: relative;
+      margin-top: -100px;
     }
   }
 
