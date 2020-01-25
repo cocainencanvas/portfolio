@@ -12,6 +12,7 @@
   pointer-events: none;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  z-index: 100;
 }
 
 .main-header {
@@ -145,6 +146,7 @@
   text-decoration: none;
   font-size: 30px;
   color: #1D1D1D;
+  z-index: 2;
 }
 
 .canvas .canvas-image-subtitle {
