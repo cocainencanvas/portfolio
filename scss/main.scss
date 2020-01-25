@@ -298,3 +298,23 @@ body {
   background-color: white;
   transition: background-color 1s ease;
 }
+
+@media (max-width: 991.98px) {
+
+  .main-banner {
+
+    .banner-title {
+      font-size: 70px;
+    }
+  }
+
+  .canvas {
+
+    .canvas-image-list {
+
+      .canvas-image {
+        margin-top: 0px
+      }
+    }
+  }
+}
