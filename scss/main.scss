@@ -109,14 +109,14 @@
   }
   .canvas-title {
     font-size: 24px;
-    margin-bottom: 300px;
+    margin-bottom: 270px;
 
      &::after {
       content: '';
-      width: 300px;
+      width: 250px;
       height: 1px;
       background-color: #707070;
-      transform: rotate(-90deg) translate(-200px, -190px);
+      transform: rotate(-90deg) translate(-170px, -160px);
       position: absolute;
       top: 0px;
     }
@@ -124,13 +124,15 @@
   }
 
   .canvas-image-list {
-    margin-top: 120px;
 
     .canvas-image {
-      width: 100%;
-      position: relative;
-      margin-top: -100px;
+      width: 100%;  
     }
+
+      li:not(:first-child) {
+        position: relative;
+        margin-top: -200px !important;
+      }
   }
 
   .canvas-image-title {
@@ -182,7 +184,6 @@
   }
 
   .footer-credits {
-    margin-top: 16px;
     font-size: 14px;
     font-weight: 300;
 
@@ -315,6 +316,15 @@ body {
       .canvas-image {
         margin-top: 0px
       }
+
+      li:not(:first-child) {
+        position: relative;
+        margin-top: 40px !important;
+      }
+    }
+
+    .canvas-title {
+        margin-bottom: 150px;
     }
   }
 }

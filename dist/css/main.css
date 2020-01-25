@@ -102,28 +102,27 @@
 
 .canvas .canvas-title {
   font-size: 24px;
-  margin-bottom: 300px;
+  margin-bottom: 270px;
 }
 
 .canvas .canvas-title::after {
   content: '';
-  width: 300px;
+  width: 250px;
   height: 1px;
   background-color: #707070;
-  -webkit-transform: rotate(-90deg) translate(-200px, -190px);
-          transform: rotate(-90deg) translate(-200px, -190px);
+  -webkit-transform: rotate(-90deg) translate(-170px, -160px);
+          transform: rotate(-90deg) translate(-170px, -160px);
   position: absolute;
   top: 0px;
 }
 
-.canvas .canvas-image-list {
-  margin-top: 120px;
-}
-
 .canvas .canvas-image-list .canvas-image {
   width: 100%;
+}
+
+.canvas .canvas-image-list li:not(:first-child) {
   position: relative;
-  margin-top: -100px;
+  margin-top: -200px !important;
 }
 
 .canvas .canvas-image-title {
@@ -175,7 +174,6 @@
 }
 
 .main-footer .footer-credits {
-  margin-top: 16px;
   font-size: 14px;
   font-weight: 300;
 }
@@ -296,6 +294,13 @@ body {
   }
   .canvas .canvas-image-list .canvas-image {
     margin-top: 0px;
+  }
+  .canvas .canvas-image-list li:not(:first-child) {
+    position: relative;
+    margin-top: 40px !important;
+  }
+  .canvas .canvas-title {
+    margin-bottom: 150px;
   }
 }
 /*# sourceMappingURL=main.css.map */
