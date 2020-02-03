@@ -87,7 +87,7 @@
 }
 
 .cocaine {
-  margin-top: 64px;
+  margin-top: 200px;
 }
 
 .cocaine .cocaine-title {
@@ -95,7 +95,7 @@
 }
 
 .cocaine .cocaine-subtitle {
-  margin-top: 24px;
+  margin-top: 30px;
   font-size: 24px;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .canvas {
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 100px;
 }
 
@@ -119,19 +119,19 @@
 
 .canvas .canvas-title {
   font-size: 24px;
-  margin-bottom: 270px;
+  margin-bottom: 70px;
 }
 
-.canvas .canvas-title::after {
+/*.canvas .canvas-title::after {
   content: '';
-  width: 250px;
+  width: 50px;
   height: 1px;
   background-color: #707070;
   -webkit-transform: rotate(-90deg) translate(-170px, -160px);
           transform: rotate(-90deg) translate(-170px, -160px);
   position: absolute;
   top: 0px;
-}
+}*/
 
 .canvas .canvas-image-list .canvas-image {
   width: 100%;
@@ -144,7 +144,7 @@
 
 .canvas .canvas-image-title {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 28px;
   color: #1D1D1D;
   z-index: 2;
 }
@@ -210,7 +210,9 @@
 
 .main-footer .footer-description {
   font-size: 18px;
+  
 }
+
 
 .main-footer .footer-copyright {
   margin-top: 70px;
