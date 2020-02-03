@@ -87,6 +87,7 @@
 }
 
 .cocaine {
+  /*background-color: #272525;*/
   margin-top: 200px;
 }
 
@@ -100,7 +101,7 @@
 }
 
 .cocaine .cocaine-background {
-  width: 100%;
+  width: 80%;
 }
 
 .cocaine .cocaine-description {
@@ -109,7 +110,7 @@
 }
 
 .canvas {
-  margin-top: 200px;
+  margin-top: 300px;
   margin-bottom: 100px;
 }
 
