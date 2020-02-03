@@ -150,8 +150,9 @@
 }
 
 .canvas .canvas-image-subtitle {
-  font-size: 30px;
+  font-size: 20px;
   color: #ADADAD;
+  font-weight: 200;
 }
 
 .image--inverted:hover {
