@@ -154,6 +154,32 @@
   color: #ADADAD;
 }
 
+.image--inverted:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: -webkit-transform .8s ease;
+  transition: -webkit-transform .8s ease;
+  transition: transform .8s ease;
+  transition: transform .8s ease, -webkit-transform .8s ease;
+}
+.image--inverted {
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+.image:hover img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+
 .main-footer {
   color: white;
   padding-top: 100px;
