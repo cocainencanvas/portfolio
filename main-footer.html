@@ -8,23 +8,10 @@
     <section id="main-footer" class="main-footer">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-3 offset-lg-2">
+          <div class="col-12 col-lg-10 offset-lg-1">
             <div class="footer-title">
-              I’m available for freelance work. 
-              <br />
-              <br />
-              Say hi !
+              I’M AVAILABLE FOR FREELANCE
             </div>
-            <hr class="footer-line-break" />
-            <div class="footer-links d-flex flex-column align-items-start">
-              <a href="#">Behance</a>
-              <a href="#">Instagram</a>
-              <a href="#">LinkedIn</a>
-              <a href="#">E-mail</a>
-              <a href="#">Call Me ?</a>
-            </div>
-          </div>
-          <div class="col-12 col-lg-4 offset-lg-1">
             <div class="d-none d-lg-block footer-description">
               Storytelling is a powerful tool to inspire, 
               empathize, engage people, bond and heal through art. 
@@ -38,17 +25,54 @@
               and social substrates in its design. It transmits ideas and 
               values inherent in every culture across space and time.
             </div>
-            <div class="footer-copyright">
-              &copy; cocainencanvas
+            <div class="d-flex flex-column flex-lg-row footer-links">
+              <a href="#">Behance</a>
+              <a href="#">Instagram</a>
+              <a href="#">LinkedIn</a>
+              <a href="#">E-mail</a>
+              <a href="#">Call Me ?</a>
             </div>
-            <div class="footer-credits">
-              <a href="https://www.linkedin.com/in/tarique-javaid-7a9150119/" target="_blank">
-                Code by Tarique Javaid
-              </a>
+            <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center footer-copyright-container">
+              <div class="footer-copyright">
+              &copy; cocainencanvas
+              </div>
+              <div class="footer-credits">
+                <a href="https://www.linkedin.com/in/tarique-javaid-7a9150119/" target="_blank">
+                  <span class="footer-credits-title">Code by </span>Tarique Javaid
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <script>
+      let FooterTextMenuLinks = document.querySelectorAll(".footer-links > a");
+      FooterTextMenuLinks.forEach(link => {
+        let letters = link.textContent.split("");
+        link.textContent = "";
+        letters.forEach((letter, i) => {
+          i += 1;
+          let span = document.createElement("span");
+          let delay = i / 20;
+          if (i % 2 === 0) {
+            delay -= 0.1;
+          } else {
+            delay += 0.05;
+          }
+          let letterOut = document.createElement("span");
+          letterOut.textContent = letter;
+          letterOut.style.transitionDelay = `${delay}s`;
+          letterOut.classList.add("out");
+          span.append(letterOut);
+          let letterIn = document.createElement("span");
+          letterIn.textContent = letter;
+          letterIn.style.transitionDelay = `${delay}s`;
+          letterIn.classList.add("in");
+          span.append(letterIn);
+          link.append(span);
+        });
+      });
+    </script>
   </body>
 </html>

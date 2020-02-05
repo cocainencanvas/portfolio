@@ -9,7 +9,7 @@
   border-radius: 50%;
   border: 1px solid #000;
   pointer-events: none;
-  transition: 0.2s;
+  transition: 0.1s;
   z-index: 100;
 }
 
@@ -49,24 +49,40 @@
     margin-top: 50px;
     margin-bottom: 300px;
 
-    .banner-link {
+    a {
       text-decoration: none;
       color: #1D1D1D;
       font-size: 18px;
       position: relative;
-    
+
+      span {
+        position: relative;
+        overflow: hidden;
+        transition: 0.6s;
+
+        .out {
+          display: inline-flex;
+        }
+
+        .in {
+          position: absolute;
+          left: 0;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+      }
 
       &:hover {
+        span {
+          .out {
+            opacity: 0;
+            transform: translateX(-100%);
+          }
 
-        &::after {
-          content: '';
-          width: 8px;
-          height: 8px;
-          background-color: #90A7A7;
-          position: absolute;
-          left: -20px;
-          top: 10px;
-          border-radius: 4px;
+          .in {
+            opacity: 1;
+            transform: translateX(0);
+          }
         }
       }
     }
@@ -180,32 +196,72 @@
   }
 
   .footer-links {
-    margin-top: 50px;
-
+    margin-top: 100px;
     a {
+      position: relative;
       text-decoration: none;
       color: white;
+      margin-right: 30px;
+
+      span {
+        position: relative;
+        overflow: hidden;
+        transition: 0.6s;
+
+        .out {
+          display: inline-flex;
+        }
+
+        .in {
+          position: absolute;
+          left: 0;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+      }
+
+      &:hover {
+        span {
+          .out {
+            opacity: 0;
+            transform: translateX(-100%);
+          }
+
+          .in {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      }
     }
   }
 
   .footer-description {
     font-size: 18px;
+    margin-top: 50px;
   }
 
-  .footer-copyright { 
-    margin-top: 70px;
-    font-weight: 300;
-    font-size: 14px;
-  }
+  .footer-copyright-container {
+    margin-top: 200px;
 
-  .footer-credits {
-    font-size: 14px;
-    font-weight: 300;
-
-    a {
-      text-decoration: none;
-      color: white;
+    .footer-copyright { 
+      font-weight: 300;
+      font-size: 14px;
     }
+
+    .footer-credits {
+      font-size: 14px;
+      font-weight: 300;
+
+      .footer-credits-title {
+        color: #3c3c3c;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+  }
   }
 }
 
@@ -278,10 +334,6 @@
     color: #363636;
   }
 
-  .next-link {
-    position: absolute;
-    top: 0;
-  }
 
   .footer-title {
     font-size: 32px;
