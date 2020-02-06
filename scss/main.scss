@@ -138,6 +138,11 @@
       list-style: none;
     }
   }
+
+  .canvas-image-title-container {
+    z-index: 10;
+  }
+
   .canvas-title {
     font-size: 24px;
     margin-bottom: 270px;

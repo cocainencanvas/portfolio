@@ -139,6 +139,10 @@
   list-style: none;
 }
 
+.canvas .canvas-image-title-container {
+  z-index: 10;
+}
+
 .canvas .canvas-title {
   font-size: 24px;
   margin-bottom: 270px;
