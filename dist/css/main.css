@@ -42,7 +42,6 @@
 .main-banner .banner-title {
   font-size: 120px;
   line-height: 98%;
-  color: #1D1D1D;
 }
 
 .main-banner .links {
@@ -247,7 +246,7 @@
 
 .canvas-banner .canvas-banner-link {
   display: block;
-  margin-top: 50px;
+  margin-top: 70px;
   text-decoration: none;
   color: #1D1D1D;
   font-size: 20px;
