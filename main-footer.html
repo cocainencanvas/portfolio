@@ -29,8 +29,8 @@
               <a href="#">Behance</a>
               <a href="#">Instagram</a>
               <a href="#">LinkedIn</a>
-              <a href="#">E-mail</a>
-              <a href="#">Call Me ?</a>
+              <a class="cursor-link" id="email" onclick="copyToClipboard('tarique@dripcapital.com')">E-mail</a>
+              <a class="cursor-link "id="call" onclick="copyToClipboard('9009')">Call Me ?</a>
             </div>
             <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center footer-copyright-container">
               <div class="footer-copyright">
@@ -73,6 +73,14 @@
           link.append(span);
         });
       });
+      function copyToClipboard(value) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val(value).select();
+        document.execCommand("copy");
+        $temp.remove();
+        alert("Copied to clipboard!")
+      }
     </script>
   </body>
 </html>
