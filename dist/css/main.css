@@ -438,6 +438,15 @@ canvas(projects)
 
 }
 
+
+/*------------------
+
+canvas(next project)
+
+------------------*/
+
+
+
 .canvas-image-full {
   margin-bottom: 40px;
   width: 100%;
@@ -458,11 +467,13 @@ canvas(projects)
 }
 
 .canvas-footer .footer-title {
-  font-size: 32px;
+  font-size: 24px;
+    font-family: 'Cinzel', serif;
+
 }
 
 .canvas-footer .footer-subtitle {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .canvas-footer .image {
