@@ -115,6 +115,12 @@
 
 .cocaine .cocaine-title {
   font-size: 20px;
+<<<<<<< HEAD
+=======
+  color: #282828;
+  font-family: 'Cinzel', serif;
+
+>>>>>>> 5c0d6c68f1cc84e1b047398e290448a3b641542d
 }
 
 .cocaine .cocaine-subtitle {
@@ -276,7 +282,15 @@
 }
 
 .canvas-banner .canvas-banner-title {
+<<<<<<< HEAD
   font-size: 50px;
+=======
+  font-size: 48px;
+  margin-top: 100px;
+  font-family: 'Cinzel', serif;
+  line-height: 100%;
+
+>>>>>>> 5c0d6c68f1cc84e1b047398e290448a3b641542d
 }
 
 .canvas-banner .canvas-banner-subtitle {
