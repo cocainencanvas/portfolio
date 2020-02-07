@@ -140,7 +140,7 @@ cocaine
 .cocaine .cocaine-title {
   font-size: 20px;
   color: #282828;
-    font-family: 'Cinzel', serif;
+  font-family: 'Cinzel', serif;
 
 }
 
@@ -379,6 +379,7 @@ canvas(projects)
   font-size: 48px;
   margin-top: 100px;
   font-family: 'Cinzel', serif;
+  line-height: 100%;
 
 }
 
