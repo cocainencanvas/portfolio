@@ -157,8 +157,8 @@
     <section id="canvas-footer" class="canvas-footer">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-8 offset-lg-2">
-            <a href="#" class="mb-5">
+          <div class="col-12 col-lg-8 offset-lg-2 mb-5 mb-lg-0">
+            <a href="#">
               Next
             </a>
           </div>
@@ -172,7 +172,7 @@
               . Cover Art and Illustration
             </div>
           </div>
-          <div class="col-12 col-lg-6 order-0 order-lg-1">
+          <div class="col-12 col-lg-6 order-0 order-lg-1 mb-3 mb-lg-0">
             <img class="image" src="./assets/canvas-1/canvas-next-1.jpg" alt="canvas-1-image-6" />
           </div>
         </div>
@@ -195,7 +195,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script>
       $(window).scroll(function() {
-        if($('body').height() - 1.5 * $(window).height() < $(window).scrollTop() && $('body').height() - 1.5 * $(window).height() > $(window).scrollTop()) {
+        if($('body').height() - 1.5 * $(window).height() < $(window).scrollTop()) {
           $('body').addClass('canvas-footer-animation')
         } else {
            $('body').removeClass('canvas-footer-animation')
