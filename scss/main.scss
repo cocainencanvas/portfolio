@@ -412,3 +412,43 @@ body {
     }
   }
 }
+
+.canvas-footer-links {
+
+  a {
+      position: relative;
+      text-decoration: none;
+      margin-right: 70px;
+
+      span {
+        position: relative;
+        overflow: hidden;
+        transition: 0.6s;
+
+        .out {
+          display: inline-flex;
+        }
+
+        .in {
+          position: absolute;
+          left: 0;
+          opacity: 0;
+          transform: translateX(100%);
+        }
+      }
+
+      &:hover {
+        span {
+          .out {
+            opacity: 0;
+            transform: translateX(-100%);
+          }
+
+          .in {
+            opacity: 1;
+            transform: translateX(0);
+          }
+        }
+      }
+    }
+}

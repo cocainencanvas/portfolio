@@ -115,12 +115,6 @@
 
 .cocaine .cocaine-title {
   font-size: 20px;
-<<<<<<< HEAD
-=======
-  color: #282828;
-  font-family: 'Cinzel', serif;
-
->>>>>>> 5c0d6c68f1cc84e1b047398e290448a3b641542d
 }
 
 .cocaine .cocaine-subtitle {
@@ -282,15 +276,7 @@
 }
 
 .canvas-banner .canvas-banner-title {
-<<<<<<< HEAD
   font-size: 50px;
-=======
-  font-size: 48px;
-  margin-top: 100px;
-  font-family: 'Cinzel', serif;
-  line-height: 100%;
-
->>>>>>> 5c0d6c68f1cc84e1b047398e290448a3b641542d
 }
 
 .canvas-banner .canvas-banner-subtitle {
@@ -406,5 +392,44 @@ body {
   .canvas .canvas-title {
     margin-bottom: 150px;
   }
+}
+
+.canvas-footer-links a {
+  position: relative;
+  text-decoration: none;
+  margin-right: 70px;
+}
+
+.canvas-footer-links a span {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.canvas-footer-links a span .out {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.canvas-footer-links a span .in {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+
+.canvas-footer-links a:hover span .out {
+  opacity: 0;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.canvas-footer-links a:hover span .in {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
 /*# sourceMappingURL=main.css.map */
