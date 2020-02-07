@@ -15,19 +15,15 @@
   z-index: 100;
 }
 
-
-
-
 .main-header {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .main-header .header-title {
-  font-size: 18px;
-
+  font-size: 24px;
   text-decoration: none;
-  color: #ADADAD;
+  color: #1D1D1D;
 }
 
 .main-header .header-image-container {
@@ -44,30 +40,20 @@
 }
 
 .main-banner .banner-title {
-  font-size: 90px;
-  font-family: 'Cinzel', serif;
+  font-size: 120px;
   line-height: 98%;
-}
-
-.main-banner .banner-subtitle {
-  margin-top: 40px;
-  font-size: 20px;
-  font-family: 'Roboto', sans-serif;
-  line-height: 98%;
-  color: #282828;
+  color: #1D1D1D;
 }
 
 .main-banner .links {
-  margin-top: 80px;
+  margin-top: 50px;
   margin-bottom: 300px;
 }
 
 .main-banner .links a {
   text-decoration: none;
-  color: #ADADAD;
-  font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-
+  color: #1D1D1D;
+  font-size: 18px;
   position: relative;
 }
 
@@ -94,15 +80,12 @@
 
 .main-banner .links a:hover span .out {
   opacity: 0;
-    color: #1D1D1D;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-
 }
 
 .main-banner .links a:hover span .in {
   opacity: 1;
-    color: #1D1D1D;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -125,23 +108,19 @@
   left: 100px;
 }
 
-
-/*------------------
-
-cocaine
-
-------------------*/
-
 .cocaine {
-  margin-top: 200px;
-  background-color: #dcd6c8;
+  margin-top: 25vh;
+  height: 100vh;
 }
 
 .cocaine .cocaine-title {
   font-size: 20px;
+<<<<<<< HEAD
+=======
   color: #282828;
   font-family: 'Cinzel', serif;
 
+>>>>>>> 5c0d6c68f1cc84e1b047398e290448a3b641542d
 }
 
 .cocaine .cocaine-subtitle {
@@ -150,30 +129,25 @@ cocaine
 }
 
 .cocaine .cocaine-background {
-  width: 85%;
+  width: 100%;
 }
 
 .cocaine .cocaine-description {
   font-size: 16px;
   color: #535353;
-    font-family: 'Roboto', sans-serif;
-
 }
 
-
-/*------------------
-
-canvas(section)
-
-------------------*/
-
 .canvas {
-  margin-top: 220px;
-  margin-bottom: 120px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .canvas ul li {
   list-style: none;
+}
+
+.canvas .canvas-image-container {
+  z-index: 10;
 }
 
 .canvas .canvas-title {
@@ -203,67 +177,25 @@ canvas(section)
 
 .canvas .canvas-image-title {
   text-decoration: none;
-  font-size: 24px;
-  font-family: 'Cinzel', serif;
-/*  text-transform: uppercase;
-*/  color: #1D1D1D;
+  font-size: 30px;
+  color: #1D1D1D;
 }
 
 .canvas .canvas-image-subtitle {
-  font-size: 18px;
+  font-size: 30px;
   color: #ADADAD;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
 }
-
-.image--inverted:hover {
-  -webkit-transform: scale(0.96);
-          transform: scale(0.96);
-}
-.image img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-transition: -webkit-transform .8s ease;
-  transition: -webkit-transform .8s ease;
-  transition: transform .8s ease;
-  transition: transform .8s ease, -webkit-transform .8s ease;
-}
-.image--inverted {
-  cursor: pointer;
-  -webkit-transition: -webkit-transform .5s ease;
-  transition: -webkit-transform .5s ease;
-  transition: transform .5s ease;
-  transition: transform .5s ease, -webkit-transform .5s ease;
-}
-.image:hover img {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
-}
-
-
-
-
-
-
-/*------------------
-
-footer
-
-------------------*/
 
 .main-footer {
-  color: #E5E5E5;
+  color: white;
   padding-top: 100px;
   padding-bottom: 100px;
   height: 100vh;
 }
 
 .main-footer .footer-title {
-  font-size: 48px;
-  line-height: 103%;
-  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  line-height: 98%;
 }
 
 .main-footer .footer-line-break {
@@ -277,10 +209,9 @@ footer
 }
 
 .main-footer .footer-links a {
-  position: relative;    
-  font-family: 'Roboto', sans-serif;
+  position: relative;
   text-decoration: none;
-  color: #C7C7C7;
+  color: white;
   margin-right: 30px;
 }
 
@@ -307,57 +238,42 @@ footer
 
 .main-footer .footer-links a:hover span .out {
   opacity: 0;
-    color: #f2f2f2;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
 }
 
 .main-footer .footer-links a:hover span .in {
   opacity: 1;
-      color: #f2f2f2;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
 
 .main-footer .footer-description {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 50px;
-  color: #d5d5d5;
-  font-family: 'Roboto', sans-serif;
-
 }
 
 .main-footer .footer-copyright-container {
-  margin-top: 120px;
+  margin-top: 200px;
 }
 
 .main-footer .footer-copyright-container .footer-copyright {
   font-weight: 300;
   font-size: 14px;
-  color: #939393;
-  font-family: 'Roboto', sans-serif;
-
-
 }
 
 .main-footer .footer-copyright-container .footer-credits {
   font-size: 14px;
   font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-
-
 }
 
 .main-footer .footer-copyright-container .footer-credits .footer-credits-title {
-  color: #848484;
-  font-family: 'Roboto', sans-serif;
-
+  color: #3c3c3c;
 }
 
 .main-footer .footer-copyright-container .footer-credits a {
   text-decoration: none;
-  color: #DBDBDB;
-;
+  color: white;
 }
 
 * {
@@ -365,44 +281,34 @@ footer
           box-sizing: border-box;
 }
 
-
-
-/*------------------
-
-canvas(projects)
-
-------------------*/
-
-
-
 .canvas-banner .canvas-banner-title {
+<<<<<<< HEAD
+  font-size: 50px;
+=======
   font-size: 48px;
   margin-top: 100px;
   font-family: 'Cinzel', serif;
   line-height: 100%;
 
+>>>>>>> 5c0d6c68f1cc84e1b047398e290448a3b641542d
 }
 
 .canvas-banner .canvas-banner-subtitle {
-  font-size: 20px;
+  font-size: 30px;
   color: #ADADAD;
-  font-weight: 300;
-  font-family: 'Roboto', sans-serif;
-
 }
 
 .canvas-banner .canvas-banner-link {
   display: block;
-  margin-top: 80px;
+  margin-top: 50px;
   text-decoration: none;
   color: #1D1D1D;
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   position: relative;
 }
 
 .canvas-backdrop-container {
-  margin-top: 250px;
+  margin-top: 120px;
 }
 
 .canvas-backdrop-container .canvas-backdrop-image {
@@ -411,7 +317,7 @@ canvas(projects)
 
 .canvas-description-container {
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .canvas-description-container .canvas-year {
@@ -420,33 +326,13 @@ canvas(projects)
 }
 
 .canvas-description-container .canvas-genre {
-  color: #707070;
-}
-
-.canvas-inpicture {
-  margin-top: 200px;
-  margin-bottom: 200px;
   color: #1D1D1D;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
 }
 
 .canvas-description-container .canvas-description {
   font-size: 24px;
-  line-height: 110%;
-  font-family: 'Roboto', sans-serif;
-
-
+  line-height: 98%;
 }
-
-
-/*------------------
-
-canvas(next project)
-
-------------------*/
-
-
 
 .canvas-image-full {
   margin-bottom: 40px;
@@ -468,13 +354,11 @@ canvas(next project)
 }
 
 .canvas-footer .footer-title {
-  font-size: 24px;
-    font-family: 'Cinzel', serif;
-
+  font-size: 32px;
 }
 
 .canvas-footer .footer-subtitle {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .canvas-footer .image {
@@ -484,6 +368,10 @@ canvas(next project)
 .canvas-footer .next-icon {
   margin-left: 10px;
   color: white;
+}
+
+.cocaine-animation {
+  background-color: #dcd6c8;
 }
 
 .main-footer-animation {
@@ -498,6 +386,10 @@ body {
   background-color: white;
   -webkit-transition: background-color 1s ease;
   transition: background-color 1s ease;
+}
+
+.cursor-link:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 991.98px) {

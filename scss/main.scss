@@ -107,7 +107,8 @@
 }
 
 .cocaine {
-  margin-top: 64px;
+  margin-top: 25vh;
+  height: 100vh;
 
   .cocaine-title {
     font-size: 20px;
@@ -138,6 +139,11 @@
       list-style: none;
     }
   }
+
+  .canvas-image-container {
+    z-index: 10;
+  }
+
   .canvas-title {
     font-size: 24px;
     margin-bottom: 270px;
@@ -354,6 +360,10 @@
 
 }
 
+.cocaine-animation {
+  background-color: #dcd6c8;;
+}
+
 .main-footer-animation {
   background-color: black;
 }
@@ -365,6 +375,13 @@
 body {
   background-color: white;
   transition: background-color 1s ease;
+}
+
+.cursor-link {
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 991.98px) {
