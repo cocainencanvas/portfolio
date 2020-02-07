@@ -107,7 +107,8 @@
 }
 
 .cocaine {
-  margin-top: 64px;
+  margin-top: 25vh;
+  height: 100vh;
 
   .cocaine-title {
     font-size: 20px;
@@ -139,7 +140,7 @@
     }
   }
 
-  .canvas-image-title-container {
+  .canvas-image-container {
     z-index: 10;
   }
 
@@ -357,6 +358,10 @@
     color: white;
   }
 
+}
+
+.cocaine-animation {
+  background-color: #dcd6c8;;
 }
 
 .main-footer-animation {
