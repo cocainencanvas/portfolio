@@ -382,6 +382,12 @@ body {
   .main-banner .banner-title {
     font-size: 70px;
   }
+  .cocaine {
+    height: auto;
+  }
+  .canvas-footer {
+    height: auto;
+  }
   .canvas .canvas-image-list .canvas-image {
     margin-top: 0px;
   }
