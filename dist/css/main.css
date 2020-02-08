@@ -532,6 +532,7 @@ next button
 }
 
 .next-btn--outer {
+  left: 20px;
   mix-blend-mode: invert;
   cursor: pointer;
   width: 50px;
