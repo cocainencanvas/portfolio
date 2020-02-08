@@ -486,7 +486,7 @@ close button
 
 .close-arrow--bar {
   width: 200px;
-  height: 3px;
+  height: 2px;
   width: 100%;
   background-color: #3C4C5B;
   position: absolute;
@@ -526,7 +526,8 @@ next button
   transform: translateX(6px);
 }
 .next-btn--container:hover .next-arrow--bar {
-  transform: scaleX(0.55);
+  transform: scaleX(0.55) translateX(40px);
+  
 
 }
 
@@ -554,13 +555,13 @@ next button
 
 .next-arrow--bar {
   width: 200px;
-  height: 3px;
+  height: 2px;
   width: 100%;
   background-color: #3C4C5B;
   position: absolute;
   top: 3px;
   transform: translateZ(0);
-  right: calc(100% - 6px);
+  right: calc(100% - 9px);
   transform-origin: 0 0;
   transition: transform 0.7s cubic-bezier(1, 0, 0.25, 1), opacity 0.7s cubic-bezier(1, 0, 0.25, 1);
   will-change: transform opacity;
@@ -571,7 +572,7 @@ next button
   border-right: solid 6px transparent;
   border-left: solid 6px #3C4C5B;
   border-top: solid 6px #3C4C5B;
-  transform: rotate(135deg) translateX(-1px);
+  transform: rotate(135deg) translateX(-3px);
   transform-origin: calc(100% - 6px;) 0;
   transition: .3s ease;
   width: 0;
