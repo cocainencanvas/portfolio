@@ -13,12 +13,28 @@
 
 
   <body>
+
+    
+
     <div class="container">
       <div class="row main-header">
         <div class="col d-flex align-items-center justify-content-between">
+         
+
+         <!-- go back arrow -->
+
           <a class="close-link" href="index.html">
-            Close
+            <div class="close-btn--container">
+            <div class="close-btn--outer">
+              <div class="close-arrow--icon">
+                <div class="close-arrow--bar"></div>
+                <div class="close-arrow--triangle">
+                </div>
+              </div>
+            </div>
+            </div>
           </a>
+
           <a href="index.html" class="d-none d-lg-block header-image-container" >
             <img class="header-image" src="./assets/logo-1.png" alt="header-image" />
           </a>
@@ -159,7 +175,15 @@
         <div class="row">
           <div class="col-12 col-lg-8 offset-lg-2 mb-5 mb-lg-0">
             <a href="#">
-              Next
+              <div class="next-btn--container">
+            <div class="next-btn--outer">
+              <div class="next-arrow--icon">
+                <div class="next-arrow--bar"></div>
+                <div class="next-arrow--triangle">
+                </div>
+              </div>
+            </div>
+            </div>
             </a>
           </div>
         </div>
@@ -194,6 +218,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script>
+
+
+/*---------
+close button
+----------*/
+
+const btn = document.querySelector('.close-btn--container');
+
+
+btn.addEventListener('click', function() {
+  document.body.classList.toggle('invert');
+})
+
+/*---------
+next button
+----------*/
+const btn = document.querySelector('.next-btn--container');
+
+
+btn.addEventListener('click', function() {
+  document.body.classList.toggle('invert');
+})
+
+// -------
+
+
       $(window).scroll(function() {
         if($('body').height() - 1.5 * $(window).height() < $(window).scrollTop()) {
           $('body').addClass('canvas-footer-animation')

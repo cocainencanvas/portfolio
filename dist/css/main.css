@@ -1,3 +1,5 @@
+
+
 .pointer {
   position: absolute;
   top: 50%;
@@ -440,3 +442,138 @@ body {
           transform: translateX(0);
 }
 /*# sourceMappingURL=main.css.map */
+
+
+/*---------
+close button
+----------*/
+
+
+.close-btn--container {
+  cursor: pointer;
+}
+.close-btn--container:hover .close-btn--outer {
+  transform: translateX(-8px) translateZ(0);
+}
+.close-btn--container:hover .close-arrow--icon {
+  transform: translateX(-3px);
+}
+.close-btn--container:hover .close-arrow--bar {
+  transform: scaleX(0.55);
+}
+
+.close-btn--outer {
+  mix-blend-mode: invert;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #3C4C5B;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.7s cubic-bezier(1, 0, 0.25, 1), opacity 0.7s cubic-bezier(0.5, 0, 0, 1), -webkit-transform 0.7s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.close-arrow--icon {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 4px);
+  width: 85%;
+  height: 8px;
+  transform: translateX(0) translateZ(0);
+  transition: transform 0.7s cubic-bezier(1, 0, 0.25, 1);
+  will-change: transform;
+}
+
+.close-arrow--bar {
+  width: 200px;
+  height: 3px;
+  width: 100%;
+  background-color: #3C4C5B;
+  position: absolute;
+  top: 3px;
+  transform: translateZ(0);
+  transform-origin: 0 0;
+  transition: transform 0.7s cubic-bezier(1, 0, 0.25, 1), opacity 0.7s cubic-bezier(1, 0, 0.25, 1);
+  will-change: transform opacity;
+}
+
+.close-arrow--triangle {
+  border-bottom: solid 6px transparent;
+  border-right: solid 6px transparent;
+  border-left: solid 6px #3C4C5B;
+  border-top: solid 6px #3C4C5B;
+  transform: rotate(-45deg) translateX(-6px);
+  transform-origin: calc(50% - 6px) 0;
+  transition: .3s ease;
+  width: 0;
+  height: 0;
+}
+
+
+
+/*---------
+next button
+----------*/
+
+
+.next-btn--container {
+  cursor: pointer;
+}
+.next-btn--container:hover .next-btn--outer {
+  transform: translateX(8px) translateZ(0);
+}
+.next-btn--container:hover .next-arrow--icon {
+  transform: translateX(6px);
+}
+.next-btn--container:hover .next-arrow--bar {
+  transform: scaleX(0.55);
+
+}
+
+.next-btn--outer {
+  mix-blend-mode: invert;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #3C4C5B;
+  border-radius: 50%;
+  position: relative;
+  transition: transform 0.7s cubic-bezier(1, 0, 0.25, 1), opacity 0.7s cubic-bezier(0.5, 0, 0, 1), -webkit-transform 0.7s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.next-arrow--icon {
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - 10px);
+  width: 85%;
+  height: 8px;
+  transform: translateX(0) translateZ(0);
+  transition: transform 0.7s cubic-bezier(1, 0, 0.25, 1);
+  will-change: transform;
+}
+
+.next-arrow--bar {
+  width: 200px;
+  height: 3px;
+  width: 100%;
+  background-color: #3C4C5B;
+  position: absolute;
+  top: 3px;
+  transform: translateZ(0);
+  right: calc(100% - 6px);
+  transform-origin: 0 0;
+  transition: transform 0.7s cubic-bezier(1, 0, 0.25, 1), opacity 0.7s cubic-bezier(1, 0, 0.25, 1);
+  will-change: transform opacity;
+}
+
+.next-arrow--triangle {
+  border-bottom: solid 6px transparent;
+  border-right: solid 6px transparent;
+  border-left: solid 6px #3C4C5B;
+  border-top: solid 6px #3C4C5B;
+  transform: rotate(135deg) translateX(-1px);
+  transform-origin: calc(100% - 6px;) 0;
+  transition: .3s ease;
+  width: 0;
+  height: 0;
+}
