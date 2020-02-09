@@ -42,15 +42,25 @@
 }
 
 .main-banner .banner-title {
-  font-size: 120px;
+  margin-top: 160px;
+  font-size: 90px;
+  line-height: 102%;
+  color: #1D1D1D;
+  font-family: 'Gilda Display', serif;
+
+}
+.main-banner .banner-subtitle {
+  margin-top: 30px;
+  font-size: 20px;
   line-height: 98%;
   color: #1D1D1D;
+
 }
 
 .main-banner .links {
-  margin-top: 50px;
-  margin-bottom: 300px;
-}
+  margin-top: 300px;
+/*  margin-bottom: 300px;
+*/}
 
 .main-banner .links a {
   text-decoration: none;
@@ -111,8 +121,8 @@
 }
 
 .cocaine {
-  margin-top: 25vh;
-  height: 100vh;
+  margin-top: 35vh;
+  height: 80vh;
 }
 
 .cocaine .cocaine-title {
@@ -125,11 +135,12 @@
 }
 
 .cocaine .cocaine-background {
-  width: 100%;
+  width: 80%;
 }
 
 .cocaine .cocaine-description {
-  font-size: 16px;
+  margin-top: 80px;
+  font-size: 20px;
   color: #535353;
 }
 
@@ -175,11 +186,12 @@
   text-decoration: none;
   font-size: 30px;
   color: #1D1D1D;
-  font-family: 'Cinzel', serif;
+  font-family: 'Gilda Display', serif;
 }
 
 .canvas .canvas-image-subtitle {
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 300;
   color: #ADADAD;
 }
 
@@ -191,8 +203,11 @@
 }
 
 .main-footer .footer-title {
-  font-size: 30px;
-  line-height: 98%;
+  font-size: 40px;
+  line-height: 110%;  
+  font-family: 'Gilda Display', serif;
+
+
 }
 
 .main-footer .footer-line-break {
@@ -246,7 +261,7 @@
 }
 
 .main-footer .footer-description {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 50px;
 }
 
@@ -265,12 +280,14 @@
 }
 
 .main-footer .footer-copyright-container .footer-credits .footer-credits-title {
-  color: #3c3c3c;
+  color: #fafafa;
+    margin-bottom: 40px;
+
 }
 
 .main-footer .footer-copyright-container .footer-credits a {
   text-decoration: none;
-  color: white;
+  color: #fafafa;
 }
 
 * {
