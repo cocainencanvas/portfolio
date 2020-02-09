@@ -225,7 +225,7 @@
            $('body').removeClass('main-footer-animation')
         }
 
-        if($(window).height() < $(window).scrollTop() && $(window).scrollTop() < 2 * $(window).height()) {
+        if(0.5 * $(window).height() < $(window).scrollTop() && $(window).scrollTop() < 1.25 * $(window).height()) {
           $('body').addClass('cocaine-animation')
         } else {
            $('body').removeClass('cocaine-animation')
